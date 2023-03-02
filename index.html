@@ -1,165 +1,150 @@
-<!DOCTYPE html>
 <html>
-<title>Bibek Aryal</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="w3-light-grey">
-
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="aryalbibek.css">
+</head>
+<body>
+<div class="container", id="container">
+  <div class="header">
+    <img class="profile-image" src="aryalbibek.jpg" alt="Bibek Aryal" onclick="myFunction()">
     
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="./images/profile.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-white">
-            <h2>Bibek Aryal</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Ph.D. Candidate, Computational Science</p>
-          <p><i class="fa fa-university fa-fw w3-margin-right w3-large w3-text-teal"></i>The University of Texas at El Paso</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>El Paso, TX</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>baryal@miners.utep.edu</p>
-          <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Research Intrests</b></p>
-          <p>Deep Learning</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:100%">
-                <div class="w3-center w3-text-white"> </div>
-            </div>
-          </div>
-          <p>Machine Learning</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">
-              <div class="w3-center w3-text-white"> </div>
-            </div>
-          </div>
-          <p>Computer Vision</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">
-                <div class="w3-center w3-text-white"> </div>
-            </div>
-          </div>
-          <p>Remote Sensing</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:92%">
-                <div class="w3-center w3-text-white"> </div>
-            </div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Nepali</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Hindi</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
+    <div class="full-name">
+      <span class="last-name">Aryal,</span> 
+      <span class="first-name">Bibek</span>
     </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Research Associate / <a href="https://selutep.squarespace.com/" target="_blank">Systems Ecology Lab</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2020 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-            <p>
-              My work in the Systems Ecology Lab include segmentation of features such as water bodies and plant functional types from high resolution airborne and satellite imagery 
-              using deep learning techniques. I wrote a python program for mapping geological features from satellite images which is still under developement and can be found in 
-              <a href="https://github.com/Aryal007/coastal_mapping" target="_blank">this github repo.</a>
-            </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Data Scientist Intern / Microsoft</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2021 - Aug 2021</h6>
-            <p>
-              I rejoined <a href="https://www.microsoft.com/en-us/research/group/msai/" target="_blank">Microsoft Search, Assistant and Intelligence</a> team for my second research internship.
-              The primary goal of this research internship was to research and develop Deep Learning based text summarization techniques with an application towards meeting summarization.
-            </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Data & Applied Scientist Intern / Microsoft</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2020 - Aug 2020</h6>
-            <p>
-              During my first internship with <a href="https://www.microsoft.com/en-us/research/group/msai/" target="_blank">Microsoft Search, Assistant and Intelligence</a> team, my research was focused on 
-              email triage ordering and weather it can be predicted using machine learning methods.
-            </p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Teaching Assistant / Department of Mathematical Sciences</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2018 - May 2020</h6>
-            <p>
-                As teaching assistant, my responsibilities included grading 1uizzes and homework assignments for various undergraduate classes, helping students by reviewing 
-              course materials with students one-on-one or in small groups, and proctoring exams.
-            </p><br>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Ph.D. - Computational Science</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - Current</h6>
-          <p>The University of Texas at El Paso</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Masters of Science - Computational Science</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2020</h6>
-          <p>The University of Texas at El Paso</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Bachelors of Science - Computer Science and Information Technology</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - 2015</h6>
-          <p>Tribhuwan University</p><br>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
+    <div class="contact-info">
+      <span class="email-val">bibekaryal7@gmail.com</span>
+      <span class="separator"></span>
+      <span class="phone-val">915-303-6131</span>
+      <span class="separator"></span>
+      <span class="phone-val">Redmond, Washington, USA</span>
+      <span class="linkedin-val"><a href="https://www.linkedin.com/in/aryal007">linkedin.com/in/aryal007</a></span>
+      <span class="separator"></span>
+      <span class="website-val"><a href="https://www.aryalbibek.com/">https://www.aryalbibek.com/</a></span>
     </div>
-    
-  <!-- End Grid -->
+    <div class="about">
+      <span class="position">Bibek Aryal, Ph.D.</span>
+      <span class="desc">
+        is an Applied Scientist at Microsoft with multiple years of experience in the software industry. He was awarded a doctorate in Computational Science from The University of Texas at El Paso in December, 2022.
+      </span>
+    </div>
   </div>
-  
-  <!-- End Page Container -->
+   <div class="details">
+    <div class="section">
+      <div class="section__title">Experience</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <span class="name">Applied Scientist II, Microsoft</span>
+            <span class="separator"></span>
+            <span class="addr">Redmond, WA</span>
+            <span class="separator"></span>
+            <span class="duration"><i>Nov 2022 - Current</i></span>
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <span class="name">Research Associate, UTEP</span>
+            <span class="separator"></span>
+            <span class="addr">El Paso, TX</span>
+            <span class="separator"></span>
+            <span class="duration"><i>Aug 2020 - Oct 2022</i></span>
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <span class="name">Research Programmer, KDC</span>
+            <span class="separator"></span>
+            <span class="addr">Kathmandu</span>
+            <span class="separator"></span>
+            <span class="duration"><i>Aug 2016 - Jun 2018</i></span>
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <span class="name">Applications Developer, Upveda Technology</span>
+            <span class="separator"></span>
+            <span class="addr">Kathmandu</span>
+            <span class="separator"></span>
+            <span class="duration"><i>May 2015 - Aug 2016</i></span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="section">
+      <div class="section__title">Education</div>
+      <div class="section__list">
+        <div class="section__list-item">
+          <div class="left">
+            <span class="name">Ph.D Computational Science, UTEP</span>
+            <span class="separator"></span>
+            <span class="addr">El Paso, TX</span>
+            <span class="separator"></span>
+            <span class="duration"><i>Aug 2018 - Dec 2022</i></span>
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <span class="name">M.Sc. Computational Science, UTEP</span>
+            <span class="separator"></span>
+            <span class="addr">El Paso, TX</span>
+            <span class="separator"></span>
+            <span class="duration"><i>Aug 2018 - Dec 2022</i></span>
+          </div>
+        </div>
+        <div class="section__list-item">
+          <div class="left">
+            <span class="name">B.Sc. Computer Science and IT, TU</span>
+            <span class="separator"></span>
+            <span class="addr">Kathmandu, Nepal</span>
+            <span class="separator"></span>
+            <span class="duration"><i>Oct 2011 - Dec 2015</i></span>
+          </div>
+        </div>
+
+      </div>
+      
+  </div>
+     <div class="section">
+      <div class="section__title">Selected Publications</div> 
+       <div class="section__list">
+        <div class="section__list-item">
+          <div class="text"><b>Aryal, B.</b>, Miles, K. E., Zesati, S. A. V., & Fuentes, O. (2023). Boundary Aware U-Net for Glacier Segmentation. Proceedings of the Northern Lights Deep Learning Workshop, 4. doi:10.7557/18.6789</div>
+        </div>
+        <div class="section__list-item">
+          <div class="text"><b>Aryal, B.</b>, Escarzaga, S. M., Vargas Zesati, S. A., Velez-Reyes, M., Fuentes, O., & Tweedie, C. (2021). Semi-automated semantic segmentation of arctic shorelines using very high-resolution airborne imagery, spectral indices and weakly supervised machine learning approaches. Remote Sensing, 13(22), 4572.</div>
+        </div>
+         <div class="section__list-item">
+           <div class="text">Baraka, S., Akera, B., <b>Aryal, B.</b>, Sherpa, T., Shresta, F., Ortiz, A., ... & Bengio, Y. (2020). Machine learning for glacier monitoring in the Hindu Kush Himalaya. arXiv preprint arXiv:2012.05013.</div>
+         </div>
+         <div class="section__list-item">
+          <a href="https://scholar.google.com/citations?user=CpCZaw0AAAAJ&hl=en">Google Scholar</a>
+         <div>
+       </div>
+      </div>
+        </div> 
+      </div>
+     <div class="section">
+     <div class="section__title">
+       Interests
+       </div>
+       <div class="section__list">
+         <div class="section__list-item">
+                  Football, Programming, Photography, Table Tennis.
+          </div>
+       </div>
+     </div>
+     </div>
+  </div>
 </div>
-
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on </p>
-  <a href="https://scholar.google.com/citations?user=CpCZaw0AAAAJ&hl=en" target="_blank"><i class="fa fa-graduation-cap w3-hover-opacity"></i></a>
-  <a href="https://github.com/Aryal007" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
-  <a href="https://www.linkedin.com/in/aryal007/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-</footer>
-
 </body>
-</html>
+<script>
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("body-dark-mode");
+  var element2 = document.getElementById("container");
+  element2.classList.toggle("container-dark-mode");
+}
+</script>

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    background: #252525;
+    font-family: "Consolas", sans-serif;
+    font-weight: 300;
+    color: #d4d4d4;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+.body-dark-mode {
+    background: #eee;
+    color: #222;
+    font-weight: 400;
+}
+.container-dark-mode {
+    background: #fff !important;
+}
+.profile-image {
+    border-radius:50%;
+    width:70px;
+    height:auto;
+    float:right;
+    margin-left: 30px;
+}
+.container {
+    max-width: 700px;
+    background: #1e1e1e;
+    margin: 0px auto 0px;
+    box-shadow: 1px 1px 2px #404040;
+    border-radius: 3px;
+    padding: 40px;
+    margin-top: 50px;
+}
+.header {
+    margin-bottom: 30px;
+}
+.header .full-name {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.header .first-name {
+    font-weight: 700;
+}
+.header .last-name {
+    font-weight: 300;
+}
+.header .contact-info {
+    margin-bottom: 20px;
+    color: #d2bb85;
+}
+a{
+    color: #d2bb85;
+}
+.separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #bacdab;
+    margin: 0px 10px;
+}
+.header .position {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 3px;
+    text-decoration: underline;
+    color: #bacdab;
+}
+.details {
+    line-height: 20px;
+}
+.details .section {
+    margin-bottom: 25px;
+}
+.details .section:last-of-type {
+    margin-bottom: 0px;
+}
+.details .section__title {
+    letter-spacing: 2px;
+    color: #aadafa;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.details .section__list-item {
+    margin-bottom: 5px;
+}
+.details .section__list-item:last-of-type {
+    margin-bottom: 0;
+}
+.details .left, .details .right {
+    vertical-align: top;
+    display: inline-block;
+}
+.details .left {
+    width: 100%;
+}
+.details .left ul {
+    margin-left: 50px;
+}
+.details .name {
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+a:hover {
+    text-decoration: underline;
+}
+.details .skills__item {
+    margin-bottom: 10px;
+}
+.details .skills__item .right input {
+    display: none;
+}
+.details .skills__item .right label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #c3def3;
+    border-radius: 20px;
+    margin-right: 3px;
+}
+.details .skills__item .right input:checked + label {
+    background: #79a9ce;
+}
