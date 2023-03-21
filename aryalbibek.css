@@ -22,17 +22,17 @@ body {
     color: #222;
     font-weight: 400;
 }
-.container-dark-mode {
+.bibek-container-dark-mode {
     background: #fff !important;
 }
-.profile-image {
+.bibek-profile-image {
     border-radius:50%;
     width:70px;
     height:auto;
     float:right;
     margin-left: 30px;
 }
-.container {
+.bibek-container {
     max-width: 700px;
     background: #1e1e1e;
     margin: 0px auto 0px;
@@ -41,21 +41,21 @@ body {
     padding: 40px;
     margin-top: 50px;
 }
-.header {
+.bibek-header {
     margin-bottom: 30px;
 }
-.header .full-name {
+.bibek-header .full-name {
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-.header .first-name {
+.bibek-header .first-name-bibek {
     font-weight: 700;
 }
-.header .last-name {
+.bibek-header .last-name-bibek {
     font-weight: 300;
 }
-.header .contact-info {
+.bibek-header .bibek-contact-info {
     margin-bottom: 20px;
     color: #d2bb85;
 }
@@ -68,7 +68,7 @@ a{
     border-left: 2px solid #bacdab;
     margin: 0px 10px;
 }
-.header .position {
+.bibek-header .position {
     font-weight: bold;
     display: inline-block;
     margin-right: 3px;
