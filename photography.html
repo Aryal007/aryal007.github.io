@@ -11,7 +11,9 @@
     </script>
 	<title>My Photography Gallery</title>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bibek Aryal, Ph.D., is an Applied Scientist at Microsoft with years of experience in the software industry. Visit https://aryalbibek.com/ to know more.">
+    <meta name="author" content="Aryal Bibek">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
@@ -70,10 +72,19 @@
             padding: 40px;
             margin-top: 50px;
         }
+
+        @media screen and (max-width: 600px) {
+            .bibek-container {
+                max-width: 100%;
+                padding: 0px;
+                margin-top: 0px;
+            }
+
+            main img {
+                width: calc(50% - 10px);
+            }
+        }
 	</style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
     </head>
 <body>
 <div class="bibek-container">
