@@ -26,7 +26,6 @@ body {
     background: #fff !important;
 }
 .profile-image {
-    border-radius:50%;
     width:70px;
     height:auto;
     float:right;
